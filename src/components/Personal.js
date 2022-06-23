@@ -46,8 +46,8 @@ export class Personal extends React.Component {
         const { name, address, phone, email, summary, edit } = this.state;
         return (
             <div>
-                <h1>{name ? name : 'Your Name'}</h1>
-                <h4>
+                <h1 className="personal">{name ? name : 'Your Name'}</h1>
+                <h4 className="personal">
                     {address ? address: "San Franciso, CA 94122"}  |  {phone ? phone: "555-555-5555"}  |  {email ? email: "youremail@email.com"}
                 </h4>
                 <h2>Summary</h2>

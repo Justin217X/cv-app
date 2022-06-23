@@ -4,7 +4,7 @@ export class Experience extends React.Component {
     render() {
         return (
             <div>
-                <p>Experience</p>
+                <h2>Experience</h2>
             </div>
         )
     }
