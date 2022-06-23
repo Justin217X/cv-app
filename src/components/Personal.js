@@ -50,8 +50,8 @@ export class Personal extends React.Component {
                 <h4 className="personal">
                     {address ? address: "San Franciso, CA 94122"}  |  {phone ? phone: "555-555-5555"}  |  {email ? email: "youremail@email.com"}
                 </h4>
-                <h2>Summary</h2>
-                <p>{summary ? summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet libero sed arcu semper lobortis. Duis blandit diam eget ex porta sagittis. Vestibulum viverra augue eu lacus iaculis convallis. Cras quam libero, auctor sed magna at, semper auctor libero. Vestibulum imperdiet sem sed sem feugiat, eu fringilla quam malesuada. Integer sapien elit, aliquam eu metus eu, tincidunt tempor sem."}</p>
+                <h2 className="summary">Summary</h2>
+                <p className="content">{summary ? summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet libero sed arcu semper lobortis. Duis blandit diam eget ex porta sagittis. Vestibulum viverra augue eu lacus iaculis convallis. Cras quam libero, auctor sed magna at, semper auctor libero. Vestibulum imperdiet sem sed sem feugiat, eu fringilla quam malesuada. Integer sapien elit, aliquam eu metus eu, tincidunt tempor sem."}</p>
                     <button className="edit-toggle" type="button" onClick={this.toggleEdit}>
                     Edit
                     </button>

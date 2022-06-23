@@ -50,7 +50,7 @@ export class Education extends React.Component {
                 <h4>
                     {degree ? degree: "Master of Business Administration: Operations Management"}
                 </h4>
-                <p>{university ? university: "Penn State University" }  |  {location ? location: "State College, PA" }  |  {year ? year: "2022"} </p>
+                <p className="sub-text">{university ? university: "Penn State University" }  |  {location ? location: "State College, PA" }  |  {year ? year: "2022"} </p>
 
 
                 <button className="edit-toggle" type="button" onClick={this.toggleEdit}>
