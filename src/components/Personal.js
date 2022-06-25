@@ -58,31 +58,31 @@ export class Personal extends React.Component {
 
                     {edit && 
                     <form id="personal-edit" className="edit-form">
-                        <label htmlFor="name">Your Name</label>
+                        <label htmlFor="name">Your Name:</label>
                         <input 
                             id="name" 
                             type="text" 
                             onChange={this.nameChange} 
                         />
-                        <label htmlFor="address">Address</label>
+                        <label htmlFor="address">Address:</label>
                         <input
                             id="address"
                             type="text"
                             onChange={this.addressChange}
                         />
-                        <label htmlFor="phone">Phone #</label>
+                        <label htmlFor="phone">Phone #:</label>
                         <input 
                             id="phone"
                             type="text"
                             onChange={this.phoneChange}
                         />
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Email:</label>
                         <input
                             id="email"
                             type="text"
                             onChange={this.emailChange}
                         />
-                        <label htmlFor="summary">Summary</label>
+                        <label htmlFor="summary">Summary:</label>
                         <textarea 
                             id="summary"
                             onChange={this.summaryChange}
